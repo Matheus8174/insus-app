@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "tsnd --respawn --transpile-only --no-notify --ignore node_modules src/server"
   },
   "keywords": [],
   "author": "Matheus Santos Araujo da Silva <souzamatheus8174@gmail.com>",
