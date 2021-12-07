@@ -10,6 +10,11 @@
   "author": "Matheus Santos Araujo da Silva <souzamatheus8174@gmail.com>",
   "license": "MiT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
     "git-commit-msg-linter": "^3.2.8",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.5.2"
