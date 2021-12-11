@@ -11,7 +11,7 @@ import AppError from './errors/appError';
 const app = express();
 
 app.disable('x-powered-by');
-// sudo docker exec -it insus_todo psql -U postgres
+
 app.use(express.json());
 app.use(routes);
 
