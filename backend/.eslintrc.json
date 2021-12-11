@@ -21,6 +21,25 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "comma-dangle": "off"
+    "brace-style": "off",
+    "indent": "off",
+    "no-useless-constructor": "off",
+    "class-methods-use-this": "off",
+    "comma-dangle": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "ts": "never"
+      }
+   ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts"]
+      }
+    }
   }
 }
