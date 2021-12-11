@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start:dev": "tsnd --respawn --transpile-only --no-notify --ignore node_modules src/server",
-    "typeorm": "ts-node-dev --transpile-only ./node_modules/.bin/typeorm"
+    "typeorm": "ts-node --transpile-only ./node_modules/.bin/typeorm"
   },
   "keywords": [],
   "author": "Matheus Santos Araujo da Silva <souzamatheus8174@gmail.com>",
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
     "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
     "typeorm": "^0.2.41"
