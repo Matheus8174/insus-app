@@ -1,0 +1,20 @@
+
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "admin",
+  "database": "insus_todo",
+  "migrationsRun": true,
+  "entities": [
+    "./src/models/*.ts"
+  ],
+  "migrations": [
+    "./src/database/migrations/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "./src/models",
+    "migrationsDir": "./src/database/migrations"
+  }
+}
