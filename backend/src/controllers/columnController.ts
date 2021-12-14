@@ -26,7 +26,7 @@ class ColumnController {
 
     const newColumn = await columnRepository.createColumn({
       name,
-      priority
+      priority: Number(priority)
     });
 
     return response.status(201).json(newColumn);
